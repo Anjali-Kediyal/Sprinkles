@@ -1,0 +1,142 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+.float-container{
+    position: relative;
+}
+.float-text{
+    font-size: 24px;
+    position: absolute;
+    bottom: 50px;
+    left: 30%;
+}
+.error{
+    padding: 2%;
+    color: red;
+}
+
+.success{
+    padding: 2%;
+    color: green;
+}
+
+
+/* CSS for Food SEarch Section */
+
+.food-search{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.465) 70%,rgba(255, 187, 0, 0.252)),url(../../assets/img/catHeader/img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 7% 0;
+}
+.food-search h2{
+    color: var(--yellow);
+}
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* CSS for Categories */
+.categories{
+    padding: 4% 0;
+}
+
+.box-3{
+    width: 20%;
+    float: left;
+    margin: 2%;
+}
+
+
+
+/* CSS for Food Menu */
+.food-menu{
+    background-color: #ececec;
+    padding: 4% 0;
+}
+.food-menu-box{
+    width: 45%;
+    margin: 2%;
+    padding: 2%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.food-menu-img img{
+    width: 130px;
+    height: 180px;
+}
+
+.food-menu-desc{
+    width: 60%;
+    float: left;
+    margin-left: 15%;
+}
+
+.food-menu-desc .food-title, .food-price{
+    font-weight: bold;
+    color: var(--yellow);
+}
+
+.food-menu-desc .food-price{
+    float: right;
+}
+
+.food-menu-desc .username{
+    color: var(--yellow);
+}
+.food-detail{
+    margin-top: 10px;
+    font-size: 15px;
+    color: grey;
+}
+
+.btnn{
+    padding: 3px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.search{
+    padding: 10px 15px;
+}
+

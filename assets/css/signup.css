@@ -1,0 +1,155 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 1em;
+  /* cursor: url('cursor_1.cur'); */
+}
+
+:root{
+  --heading1: 'Permanent Marker', cursive;
+  --heading2: 'Barlow', sans-serif;
+  --para: 'Roboto', sans-serif;
+  --yellow: #cda45e;
+  --brown: #050303;
+  --black: #000;
+  --white: #fff;
+  --lightwhite: #d1d5db;
+}
+
+.buttondesign{
+  padding: 15px 30px;
+  color: var(--white);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  background: var(--yellow);
+  border-radius: 10px;
+  display: inline-block;
+  border: 2px solid var(--yellow);
+  transition: 0.7s;
+}
+
+.flex-ja{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-jaf{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* strip6 */
+.wrap6{
+background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/menu/cookies.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+width : 100%;
+height: 100vh;
+color: #fff;
+}
+
+.wrap6 .section{
+  padding: 5% 0px;
+  background-color: #eeeeee21;
+  width: 400px;
+  min-height: 70vh;
+}
+
+.wrap6 .content{
+  text-align: center;
+  width: 85%;
+  margin: 0px 5% 5% 5%;
+}
+
+.wrap6 .contactform{
+  width: 80%;
+  padding: 10px;
+}
+
+.wrap6 .contactform .inputs{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.wrap6 .contactform .inputs input{
+  color: rgb(175, 175, 175);
+  font-size: 13px;
+  border: none;
+  border-bottom: 1px solid #68696d2d;
+  border-radius: 5px;
+  width: 100%;
+  background-color: var(--brown);
+  padding: 12px;
+}
+
+.wrap6 .contactform .inputs:not(last-child){
+  margin: 15px 0;
+}
+
+.wrap6 .content h1{
+  width: 100%;
+  font-size: 32px;
+  position: relative;
+}
+.wrap6 .content h2{
+  font-size: 28px;
+}
+.subheading{
+  margin-top: 5px;
+}
+
+.takeaction div{
+  min-height: 40px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 5px;
+  background: var(--yellow);
+  border: var(--yellow);
+  transition: 0.3s;
+}
+.takeaction div:hover{
+  background: transparent;
+  border: 2px solid var(--yellow);
+  transform: scale(0.9);
+  color: #fff;
+}
+.takeaction div:hover button{
+  color: #fff;
+}
+.takeaction button{
+  border: 0px;
+  background-color: rgba(68, 255, 208, 0);
+}
+.wrap6 .section a{
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 8px;
+  color:  var(--yellow);
+}
+
+header{
+    position: absolute;
+    width: 100%;
+}
+
+header .container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent !important;
+}
+
+header .container div{
+    margin: 10px 50px;
+}
