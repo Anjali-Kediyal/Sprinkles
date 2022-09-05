@@ -1,2 +1,3 @@
 A web based third-party application for bakery management system that solely focuses on bakery products.       
-HTML, CSS, JavaScript, Bootstrap, PHP, MySQL.
+Frontend - HTML, CSS, JavaScript, Bootstrap.                                                                  
+Backend - PHP, MySQL.
